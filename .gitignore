@@ -1,0 +1,10 @@
+.ipynb_checkpoints
+.virtual_documents
+
+__pycache__
+
+0
+1-mining
+2-preprocessing
+3-tokenizing
+4-embedding
