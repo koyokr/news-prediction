@@ -317,7 +317,7 @@ test = ["pytest (!=5.3.4)", "pytest-cov", "flaky", "nose", "ipyparallel"]
 
 [[package]]
 name = "ipython"
-version = "7.29.0"
+version = "7.31.1"
 description = "IPython: Productive Interactive Computing"
 category = "main"
 optional = false
@@ -1136,8 +1136,8 @@ multidict = ">=4.0"
 
 [metadata]
 lock-version = "1.1"
-python-versions = ">=3.9,<3.10"
-content-hash = "feed42a46032e508c6988577ed9a8123f176d780e5d03649edfcae0328cc9948"
+python-versions = "~3.9"
+content-hash = "ed11cfb12d8e8680c0b11b20aef7058af299885dbe2e129c3b720bb00ed82495"
 
 [metadata.files]
 absl-py = [
@@ -1382,8 +1382,8 @@ ipykernel = [
     {file = "ipykernel-6.5.0.tar.gz", hash = "sha256:299795cca2c4aed7e233e3ad5360e1c73627fd0dcec11a9e75d5b2df43629353"},
 ]
 ipython = [
-    {file = "ipython-7.29.0-py3-none-any.whl", hash = "sha256:a658beaf856ce46bc453366d5dc6b2ddc6c481efd3540cb28aa3943819caac9f"},
-    {file = "ipython-7.29.0.tar.gz", hash = "sha256:4f69d7423a5a1972f6347ff233e38bbf4df6a150ef20fbb00c635442ac3060aa"},
+    {file = "ipython-7.31.1-py3-none-any.whl", hash = "sha256:55df3e0bd0f94e715abd968bedd89d4e8a7bce4bf498fb123fed4f5398fea874"},
+    {file = "ipython-7.31.1.tar.gz", hash = "sha256:b5548ec5329a4bcf054a5deed5099b0f9622eb9ea51aaa7104d215fece201d8c"},
 ]
 jamo = [
     {file = "jamo-0.4.1-py3-none-any.whl", hash = "sha256:d4b94fd23324c606ed2fbc4037c603e2c3a7ae9390c05d3473aea1ccb6b1c3fb"},
@@ -1460,11 +1460,11 @@ kiwisolver = [
     {file = "kiwisolver-1.3.2.tar.gz", hash = "sha256:fc4453705b81d03568d5b808ad8f09c77c47534f6ac2e72e733f9ca4714aa75c"},
 ]
 libclang = [
-    {file = "libclang-12.0.0-py2.py3-none-macosx_10_9_x86_64.whl", hash = "sha256:3b0585dbdc3f3b372340f1efe7c28bf4a5b658d2fb8dc0544a7ef0d2bef40618"},
-    {file = "libclang-12.0.0-py2.py3-none-macosx_11_0_arm64.whl", hash = "sha256:6df2f8a2cb75181e3c1e99e5dfca2fd44bb7f84ed12d5112541e03c10384f306"},
-    {file = "libclang-12.0.0-py2.py3-none-manylinux1_x86_64.whl", hash = "sha256:b828cb52cf3f02fb0e0a8fddb9dece7e2ed006f8b4d54ee811cef0471d414367"},
-    {file = "libclang-12.0.0-py2.py3-none-manylinux2014_aarch64.whl", hash = "sha256:275126823c60ab5c9fae6a433cbb6a47e4d1b5f668a985fbd6065553dbc7efcc"},
-    {file = "libclang-12.0.0-py2.py3-none-win_amd64.whl", hash = "sha256:fadad3bf5fbab50c996eb151adc58c3a7cbee45a9135060c416be7b640372112"},
+    {file = "libclang-12.0.0-2-py2.py3-none-macosx_10_9_x86_64.whl", hash = "sha256:cea55e97ae7b0b49ca8ea843e1c7dc9ff15a5484dae7b7fdf4b204e1470f2253"},
+    {file = "libclang-12.0.0-2-py2.py3-none-macosx_11_0_arm64.whl", hash = "sha256:327ea0ccdca052233d192ffd6a15a92eaa08a97c245cedd2e0862c838803c8fe"},
+    {file = "libclang-12.0.0-2-py2.py3-none-manylinux1_x86_64.whl", hash = "sha256:685d415c03cd666c01997986a3fd75f2669c4680fb64de0d64f3059ff9a826e2"},
+    {file = "libclang-12.0.0-2-py2.py3-none-manylinux2014_aarch64.whl", hash = "sha256:fdd1cb8d215469589dfffcbda1bc66d3b5edb0f661ffe1be2c73309d98a33d87"},
+    {file = "libclang-12.0.0-2-py2.py3-none-win_amd64.whl", hash = "sha256:46414009fcee8375ba64ea6c2c43c5b80a63e3a8b679f4293e00aa605b7265aa"},
 ]
 markdown = [
     {file = "Markdown-3.3.4-py3-none-any.whl", hash = "sha256:96c3ba1261de2f7547b46a00ea8463832c921d3f9d6aba3f255a6f71386db20c"},
