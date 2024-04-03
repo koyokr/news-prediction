@@ -6,7 +6,7 @@ authors = ["Younghun Ko <koyo@koyo.kr>"]
 
 [tool.poetry.dependencies]
 python = "~3.9"
-Pillow = "^10.0.1"
+Pillow = "^10.3.0"
 beautifulsoup4 = "^4.10.0"
 gensim = "^4.1.2"
 html5lib = "^1.1"
