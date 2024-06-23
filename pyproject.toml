@@ -6,7 +6,7 @@ authors = ["Younghun Ko <koyo@koyo.kr>"]
 
 [tool.poetry.dependencies]
 python = "~3.9"
-Pillow = "^10.0.1"
+Pillow = "^10.3.0"
 beautifulsoup4 = "^4.10.0"
 gensim = "^4.1.2"
 html5lib = "^1.1"
@@ -15,17 +15,17 @@ jamo = "^0.4.1"
 matplotlib = "^3.4.3"
 numpy = "^1.22.0"
 pandas = "^1.3.4"
-requests = "^2.31.0"
-scikit-learn = "^1.0.1"
+requests = "^2.32.2"
+scikit-learn = "^1.5.0"
 scikit-plot = "^0.3.7"
 seaborn = "^0.11.2"
 tensorflow = "^2.11.1"
 tensorflow-addons = "^0.14.0"
-tqdm = "^4.62.3"
+tqdm = "^4.66.3"
 yarl = "^1.7.2"
 
 [tool.poetry.dev-dependencies]
-black = "^21.10b0"
+black = "^24.3"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
